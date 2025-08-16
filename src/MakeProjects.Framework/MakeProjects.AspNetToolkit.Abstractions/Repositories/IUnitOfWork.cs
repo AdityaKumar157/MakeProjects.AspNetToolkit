@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MakeProjects.Abstractions.Repositories
+namespace MakeProjects.AspNetToolkit.Abstractions.Repositories
 {
     /// <summary>
     /// Defines a contract for managing database transactions and persisting changes to the database.

@@ -1,14 +1,14 @@
-﻿using MakeProjects.Abstractions.Repositories;
-using MakeProjects.Abstractions.Services;
+﻿using MakeProjects.AspNetToolkit.Abstractions.Repositories;
+using MakeProjects.AspNetToolkit.Abstractions.Services;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using static MakeProjects.Abstractions.Exceptions.Exceptions;
+using static MakeProjects.AspNetToolkit.Abstractions.Exceptions.Exceptions;
 
-namespace MakeProjects.Infrastructure.Services
+namespace MakeProjects.AspNetToolkit.Infrastructure.Services
 {
     /// <summary>
     /// Provides a base implementation of <see cref="ICrudService{TEntity, TKey}"/> for CRUD (Create, Read, Update, Delete) operations on entities.
@@ -25,9 +25,19 @@ namespace MakeProjects.Infrastructure.Services
         where TKey : notnull
     {
         #region Protected Members
+        /// <summary>
+        /// Repository used for data access operations.
+        /// </summary>
         protected readonly IRepository<TEntity, TKey> _repository;
+
+        /// <summary>
+        /// Logger for logging operations and exceptions.
+        /// </summary>
         protected readonly ILogger<BaseCrudService<TEntity, TKey>> _logger;
 
+        /// <summary>
+        /// Description of the service, used for documentation and logging purposes.
+        /// </summary>
         protected string? _description;
         #endregion Protected Members
 

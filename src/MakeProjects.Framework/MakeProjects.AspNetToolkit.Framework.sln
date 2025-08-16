@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36408.4 d17.14
+VisualStudioVersion = 17.14.36408.4
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MakeProjects.Abstractions", "MakeProjects.Abstractions\MakeProjects.Abstractions.csproj", "{52657A37-CA2C-4B67-9334-4480E1060157}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MakeProjects.AspNetToolkit.Abstractions", "MakeProjects.AspNetToolkit.Abstractions\MakeProjects.AspNetToolkit.Abstractions.csproj", "{52657A37-CA2C-4B67-9334-4480E1060157}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MakeProjects.Infrastructure", "MakeProjects.Infrastructure\MakeProjects.Infrastructure.csproj", "{89753A41-F37D-43B3-B445-8B311AEADED5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MakeProjects.AspNetToolkit.Infrastructure", "MakeProjects.AspNetToolkit.Infrastructure\MakeProjects.AspNetToolkit.Infrastructure.csproj", "{89753A41-F37D-43B3-B445-8B311AEADED5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

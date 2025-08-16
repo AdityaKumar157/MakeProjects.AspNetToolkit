@@ -17,7 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\MakeProjects.Abstractions\MakeProjects.Abstractions.csproj" />
+    <ProjectReference Include="..\MakeProjects.AspNetToolkit.Abstractions\MakeProjects.AspNetToolkit.Abstractions.csproj" />
   </ItemGroup>
 
 </Project>

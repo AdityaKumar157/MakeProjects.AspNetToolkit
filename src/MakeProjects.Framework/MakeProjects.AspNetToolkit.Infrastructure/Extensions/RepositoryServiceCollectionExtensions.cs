@@ -4,16 +4,21 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using MakeProjects.Abstractions.Repositories;
-using MakeProjects.Infrastructure.Repositories;
+using MakeProjects.AspNetToolkit.Abstractions.Repositories;
+using MakeProjects.AspNetToolkit.Infrastructure.Repositories;
 
-namespace MakeProjects.Infrastructure.Extensions
+namespace MakeProjects.AspNetToolkit.Infrastructure.Extensions
 {
     /// <summary>
     /// Provides extension methods to register repositories in the DI container.
     /// </summary>
     public static class RepositoryServiceCollectionExtensions
     {
+        /// <summary>
+        /// Adds repository services to the specified <see cref="IServiceCollection"/>.
+        /// </summary>
+        /// <param name="services"></param>
+        /// <returns></returns>
         public static IServiceCollection AddRepositories(this IServiceCollection services)
         {
             // Register generic repository

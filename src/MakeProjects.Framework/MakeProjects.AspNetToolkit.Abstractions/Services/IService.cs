@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MakeProjects.Abstractions.Services
+namespace MakeProjects.AspNetToolkit.Abstractions.Services
 {
     /// <summary>
     /// Represents a generic service with a description.

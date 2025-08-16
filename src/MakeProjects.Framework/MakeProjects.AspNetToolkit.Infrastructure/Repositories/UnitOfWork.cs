@@ -1,4 +1,4 @@
-﻿using MakeProjects.Abstractions.Repositories;
+﻿using MakeProjects.AspNetToolkit.Abstractions.Repositories;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Storage;
 using System;
@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MakeProjects.Infrastructure.Repositories
+namespace MakeProjects.AspNetToolkit.Infrastructure.Repositories
 {
     /// <summary>
     /// Provides a unit of work implementation for managing database transactions and changes.
@@ -100,8 +100,8 @@ namespace MakeProjects.Infrastructure.Repositories
 //DI Registration in RepositoryServiceCollectionExtensions.cs
 //services.AddScoped<IUnitOfWork, UnitOfWork>();
 
-/**
-✅ Example Usage
+/***
+Example Usage
 public class OrderService
 {
     private readonly IRepository<Order, Guid> _orderRepository;

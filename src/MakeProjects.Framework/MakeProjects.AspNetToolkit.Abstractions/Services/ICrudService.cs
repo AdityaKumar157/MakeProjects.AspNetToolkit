@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MakeProjects.Abstractions.Services
+namespace MakeProjects.AspNetToolkit.Abstractions.Services
 {
     /// <summary>
     /// Defines a service for performing Create, Read, Update, and Delete (CRUD) operations on entities of type <typeparamref name="TEntity"/>.

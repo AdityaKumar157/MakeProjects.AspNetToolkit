@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <package>
   <metadata>
-    <id>MakeProjects.Framework</id>
-    <version>1.0.1</version>
+    <id>MakeProjects.AspNetToolkit.Framework</id>
+    <version>1.0.3</version>
     <authors>Aditya Mallik</authors>
     <owners>MakeProjects</owners>
 	<projectUrl>https://github.com/MakeProjects/Framework</projectUrl>
@@ -12,7 +12,7 @@
     <tags>repository pattern; efcore; aspnetcore; service pattern; UoW pattern; unit of work pattern; crud service; </tags>
 	<readme>docs\README.md</readme>
 	<releaseNotes>
-		1. Initial release of MakeProjects.Framework, which includes repository and service abstractions along with EF Core infrastructure.
+		1. Initial release of MakeProjects.AspNetToolkit.Framework, which includes repository and service abstractions along with EF Core infrastructure.
 	</releaseNotes>
 	<copyright>© MakeProjects 2025</copyright>
     <dependencies>
@@ -26,10 +26,10 @@
 	<file src="LICENSE" target="content" />
 	<file src="README.md" target="docs\" />
 
-	<file src="D:\Academic Documents\.NET with C#\WebDev\MakeProjects.Framework\MakeProjects.Abstractions\bin\Release\net8.0\MakeProjects.Abstractions.dll" target="lib\net8.0" />
-	<file src="D:\Academic Documents\.NET with C#\WebDev\MakeProjects.Framework\MakeProjects.Abstractions\bin\Release\net8.0\MakeProjects.Abstractions.xml" target="lib\net8.0" />
+	<file src="MakeProjects.AspNetToolkit.Abstractions/bin/Release/net8.0/MakeProjects.AspNetToolkit.Abstractions.dll" target="lib\net8.0" />
+	<file src="MakeProjects.AspNetToolkit.Abstractions/bin/Release/net8.0/MakeProjects.AspNetToolkit.Abstractions.xml" target="lib\net8.0" />
 
-	<file src="D:\Academic Documents\.NET with C#\WebDev\MakeProjects.Framework\MakeProjects.Infrastructure\bin\Release\net8.0\MakeProjects.Infrastructure.dll" target="lib\net8.0" />
-	<file src="D:\Academic Documents\.NET with C#\WebDev\MakeProjects.Framework\MakeProjects.Infrastructure\bin\Release\net8.0\MakeProjects.Infrastructure.xml" target="lib\net8.0" />
+	<file src="MakeProjects.AspNetToolkit.Infrastructure/bin/Release/net8.0/MakeProjects.AspNetToolkit.Infrastructure.dll" target="lib\net8.0" />
+	<file src="MakeProjects.AspNetToolkit.Infrastructure/bin/Release/net8.0/MakeProjects.AspNetToolkit.Infrastructure.xml" target="lib\net8.0" />
   </files>
 </package>

@@ -1,4 +1,4 @@
-﻿using MakeProjects.Abstractions.Repositories;
+﻿using MakeProjects.AspNetToolkit.Abstractions.Repositories;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MakeProjects.Infrastructure.Repositories
+namespace MakeProjects.AspNetToolkit.Infrastructure.Repositories
 {
     /// <summary>
     /// Provides a base implementation of the <see cref="IRepository{TEntity, TKey}"/> interface for managing entities
@@ -22,7 +22,14 @@ namespace MakeProjects.Infrastructure.Repositories
         where TEntity : class
         where TKey : notnull
     {
+        /// <summary>
+        /// Database context used for accessing the database.
+        /// </summary>
         protected readonly DbContext _db;
+
+        /// <summary>
+        /// Database set for the entity type being managed.
+        /// </summary>
         protected readonly DbSet<TEntity> _dbSet;
 
         /// <summary>
