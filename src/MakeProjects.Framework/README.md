@@ -2,7 +2,7 @@
 Repository + Service abstractions and EF Core infrastructure.
 
 ## Installation
-dotnet add package MakeProjects.Framework
+dotnet add package MakeProjects.AspNetToolkit.Framework
 
 ## Features
 - Repository and Service abstractions
