@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>MakeProjects.Framework</id>
+    <version>1.0.1</version>
+    <authors>Aditya Mallik</authors>
+    <owners>MakeProjects</owners>
+	<projectUrl>https://github.com/MakeProjects/Framework</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+	<license type="expression">MIT</license>
+    <description>Repository + Service abstractions and EF Core infrastructure</description>
+    <tags>repository pattern; efcore; aspnetcore; service pattern; UoW pattern; unit of work pattern; crud service; </tags>
+	<readme>docs\README.md</readme>
+	<releaseNotes>
+		1. Initial release of MakeProjects.Framework, which includes repository and service abstractions along with EF Core infrastructure.
+	</releaseNotes>
+	<copyright>© MakeProjects 2025</copyright>
+    <dependencies>
+      <group targetFramework="net8.0">
+        <dependency id="Microsoft.EntityFrameworkCore" version="8.0.19" />
+		<dependency id="Microsoft.Extensions.Logging.Abstractions" version="8.0.3" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+	<file src="LICENSE" target="content" />
+	<file src="README.md" target="docs\" />
+
+	<file src="D:\Academic Documents\.NET with C#\WebDev\MakeProjects.Framework\MakeProjects.Abstractions\bin\Release\net8.0\MakeProjects.Abstractions.dll" target="lib\net8.0" />
+	<file src="D:\Academic Documents\.NET with C#\WebDev\MakeProjects.Framework\MakeProjects.Abstractions\bin\Release\net8.0\MakeProjects.Abstractions.xml" target="lib\net8.0" />
+
+	<file src="D:\Academic Documents\.NET with C#\WebDev\MakeProjects.Framework\MakeProjects.Infrastructure\bin\Release\net8.0\MakeProjects.Infrastructure.dll" target="lib\net8.0" />
+	<file src="D:\Academic Documents\.NET with C#\WebDev\MakeProjects.Framework\MakeProjects.Infrastructure\bin\Release\net8.0\MakeProjects.Infrastructure.xml" target="lib\net8.0" />
+  </files>
+</package>
