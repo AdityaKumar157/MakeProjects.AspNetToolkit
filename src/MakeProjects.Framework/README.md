@@ -1,4 +1,4 @@
-# MakeProjects.Framework
+# MakeProjects.AspNetToolkit.Framework
 Repository + Service abstractions and EF Core infrastructure.
 
 ## Installation
@@ -15,7 +15,7 @@ dotnet add package MakeProjects.AspNetToolkit.Framework
 ## Getting Started
 1. Install the package:
    ```bash
-   dotnet add package MakeProjects.Framework
+   dotnet add package MakeProjects.AspNetToolkit.Framework
    ```
 2. Configure your DbContext and services in your application:
    ```csharp
